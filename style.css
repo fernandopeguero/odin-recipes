@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+:root {
+    /* color */
+    --text-color: #021526;
+    --text-heading-color: #03346E;
+
+    --main-bg-color: #E2E2B6;
+    --accent-color: #6EACDA;
+}
