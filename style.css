@@ -1,13 +1,79 @@
+:root {
+    /* color */
+    --text-color: #F8EDED;
+    --text-heading-color: #FFDE4D;
+
+    --accent-color-blue: #6EACDA;
+    --accent-color-orange: #E85C0D;
+
+    /* padding */
+    --padding-small: 16px;
+    --padding-medium: 28px;
+    --padding-large: 36px;
+
+    /* Background Image  */
+}
+
 html {
     font-size: 16px;
     box-sizing: border-box;
+    text-align: center;
 }
 
-:root {
-    /* color */
-    --text-color: #021526;
-    --text-heading-color: #03346E;
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
 
-    --main-bg-color: #E2E2B6;
-    --accent-color: #6EACDA;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-heading-color);
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 0.5em;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color-orange);
+}
+
+ul,
+ol {
+    list-style: none;
+    line-height: 2em;
+    padding: 0;
+    background-color: rgba(2, 21, 38, 0.5);
+    padding: 16px 0px;
+    border-radius: 15px;
+}
+
+.menu {
+    background: content-box center no-repeat url("./img/background/vegetables-set-left-black-slate.jpg");
+    height: inherit;
+}
+
+.menu-container {
+    max-width: 300px;
+    margin: 0 auto;
 }
