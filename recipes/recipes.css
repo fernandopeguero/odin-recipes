@@ -1,0 +1,53 @@
+body {
+    counter-reset: section;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.card-container {
+
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.7rem;
+}
+
+.ingredients,
+.steps {
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.ingredients {
+    list-style: none;
+}
+
+.ingredients li::before {
+    content: "• ";
+    color: #D8A25E;
+}
+
+
+.steps {
+    list-style: none;
+}
+
+.steps li::before {
+    counter-increment: section;
+    content: "Step " counter(section);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    display: block;
+}
+
+.steps li {
+    padding-bottom: 1em;
+}
