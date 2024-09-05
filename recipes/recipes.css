@@ -9,12 +9,6 @@ h2 {
     font-size: 2rem;
 }
 
-ul,
-ol {
-    list-style: none;
-
-}
-
 .card-container {
 
     max-width: 550px;
