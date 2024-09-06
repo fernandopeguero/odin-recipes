@@ -20,6 +20,7 @@ h2 {
 img {
     width: 512px;
     height: auto;
+    border-radius: 10px;
 }
 
 .card-container {
