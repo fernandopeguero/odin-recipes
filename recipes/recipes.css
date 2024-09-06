@@ -9,6 +9,11 @@ h2 {
     font-size: 2rem;
 }
 
+img {
+    max-width: 512px;
+    height: auto;
+}
+
 .card-container {
 
     max-width: 550px;
