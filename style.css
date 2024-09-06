@@ -70,6 +70,7 @@ ol {
 
 .menu {
     background: content-box center no-repeat url("./img/background/vegetables-set-left-black-slate.jpg");
+    background-size: cover;
     height: inherit;
 }
 
